@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>entre_postprob</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- <link rel="stylesheet" href="template.css"> -->
+    <link rel="stylesheet" href="student_suggsol.css">
+    <style>
+        #solution{
+              height: 270px;
+              width: 100%;
+              font-family: "Times New Roman", Times, serif;
+              font-size: 20px;
+          } 
+          .notification {
+              background-color: #555;
+              color: white;
+              text-decoration: none;
+              padding: 15px 150px;
+              position: relative;
+              display: inline-block;
+              border-radius: 2px;
+          }
+          .notification:hover {
+    background: blue;
+  }
+  
+  .notification .badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background: red;
+    color: white;
+  }
+      </style>
+</head>
+<body style="background-color: rgba(134, 187, 195,0.8);">
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+            </button>
+            <!-- <a class="navbar-brand" href="#Home">--><a href="#Home"><img src="https://i.ibb.co/MRLk6B9/photo-2022-12-09-12-52-44.jpg" alt="LOGO" height="50px" width="50px" border="0"></a> 
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+              <li class="dropdown">
+                <!-- <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#Tech">Page 1-1</a></li>
+                  <li><a href="#">Page 1-2</a></li>
+                  <li><a href="#">Page 1-3</a></li>
+                </ul>
+              </li> -->
+              <!-- <li><a href="Search bar">Technical Skills</a></li> -->
+              <!-- <div class="topnav">
+              <input type="text" placeholder="Search.." height="50px">
+              </div>   -->
+              <li>
+              
+                <ul class="dropdown-menu">
+                  <li><a href="#Tech">Page 1-1</a></li>
+                  <li><a href="#">Page 1-2</a></li>
+                  <li><a href="#">Page 1-3</a></li>
+                </ul>
+              </li> 
+              
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><button class="notification" data-toggle="dropdown" href="#">Notifications <span class="caret"><span class="badge">3</span></span></button></li>
+              <li><a href="#"><span class="glyphicon glyphicon-user"></span> About us</a></li>
+              <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Profile</a></li>
+              <!-- <button class="notification" data-toggle="dropdown" href="#">Notifications <span class="caret"><span class="badge">3</span></span></button>-->
+            </ul> 
+          </div>
+        </div>
+      </nav>
+      <div class="content" style="margin-left: 20px; margin-right: 20px;">
+        <h1 style="font-size: 40px; font-family: cursive;">Problem statement:</h1><br>
+        <label for="myfile">Enter field:</label>
+        <input type="text" placeholder="Enter field here..">
+        <textarea id="solution" placeholder="Enter your problem here"></textarea>
+        <label for="myfile">Select last date:</label>
+        <input type="date" >
+        <input type="submit" value="Submit" style="font-size: large; padding: 5px; display: block;">
+    </div>
+</body>
